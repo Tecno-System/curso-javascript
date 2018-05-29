@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <title>Buscar Cep</title>
+</head>
+<body>
+  <div class="container">
+    <img src="map.svg" alt="Icone de um mapa">
+    <form action="" class="formulario">
+      <input type="text" data-js="cep" class="formulario-input" placeholder="Cep" autofocus required>
+
+      <input type="text" data-js="rua" class="formulario-input" placeholder="Rua" disabled>
+
+      <input type="text" data-js="bairro" class="formulario-input" placeholder="Bairro" disabled>
+
+      <input type="text" data-js="cidade" class="formulario-input" placeholder="Cidade" disabled>
+
+      <input type="text" data-js="estado" class="formulario-input" placeholder="Estado" disabled>
+
+      <input type="submit" value="Buscar" data-js="btn-buscar" class="formulario-btn">
+    </form>
+    <span class="message" data-js="msg"></span>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
