@@ -22,7 +22,7 @@ $btn.addEventListener('click', function(event){
 // Função responsável por receber um cep e retornar suas informações.
 function buscarCep(cep) {
   $msg.innerHTML = `Buscando informações referente ao cep ${cep} ...`;
-  fetch(`http://apps.widenet.com.br/busca-cep/api/cep/${cep}.json`)
+  fetch(`https://apps.widenet.com.br/busca-cep/api/cep/${cep}.json`)
   .then(resposta => resposta.json())
   .then(dados => endereco = dados)
   .catch(e => console.log('Ops, ocorreu um erro. =/', e));
