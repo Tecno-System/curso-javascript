@@ -1,0 +1,40 @@
+body {
+  background-color: #3742fa;
+}
+
+.container {
+  width: 500px;
+  margin: 100px auto;
+  box-sizing: border-box;
+  padding: .5em;
+  position: relative;
+}
+
+#tarefaNome {
+  width: 100%;
+  padding: .5em 0;
+}
+
+#btn {
+  position: absolute;
+  right: .3em;
+  padding: .5em;
+  margin: .5em 0;
+  border: 0;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+#listaTarefas {
+  width: 100%;
+  margin: 4em 0;
+  padding: 0;
+}
+
+#listaTarefas li {
+  width: 100%;
+  box-sizing: border-box;
+  padding: .5em;
+  list-style: none;
+  background: #fff;
+}

@@ -1,0 +1,22 @@
+.container {
+	width: 500px;
+	margin: 0 auto;
+}
+
+.livros {
+	width: 100%;
+	margin: 20px auto;
+	padding: .5em;
+}
+
+.livros li {
+	background-color: #ddd;
+	list-style: none;
+	margin-top: .3em;
+	padding: .5em;
+}
+
+span {
+	opacity: 0;
+	transition: all 1s;
+}

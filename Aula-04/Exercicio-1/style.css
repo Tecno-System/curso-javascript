@@ -1,0 +1,42 @@
+
+h1 {
+  text-align: center;
+}
+
+.listaDeHerois {
+  width: 900px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.heroi {
+  width: 100%;
+  background: #dcdde1;
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  grid-template-rows: 40px 1fr;
+  margin-bottom: 2em;
+}
+
+.heroi img {
+  grid-column: 1;
+  grid-row: 1/3;
+}
+
+.heroi h2 {
+  padding: 0 .5em;
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.heroi ul {
+  padding: 0;
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.heroi ul li {
+  list-style: none;
+  padding: 0 1em;
+}
